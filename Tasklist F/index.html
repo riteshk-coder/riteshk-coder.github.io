@@ -1,3 +1,7 @@
+
+<!-- </>  by RITESH -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,69 +14,40 @@
   crossorigin="anonymous">
 <!-- </>  by RITESH -->
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="todos.css">
+ <link rel="stylesheet" href="style.css">
   <title>Task List</title>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-
-      <div id="content">
-        <div class="buttons" id="container">
-          <button class="btn button-style" id="previous">&lt;&lt; Previous</button>
-          <button class="btn button-style" id="next">Next &gt;&gt;</button>
-        </div>
-      </div>
-      <div class="col s6 ">
-
-
+      <div class="col s12">
         <div id="main" class="card">
           <div class="card-content">
             <span class="card-title">Today <button id="btn1" ><span id="plus">+</span></button></span>
-            
-              
-          
             <div class="row">
               <form id="task-form">
                 <div class="input-field col s12">
                   <input type="text" name="task" id="task">
                   <label for="task">New Task</label>
                 </div>
-                <input type="submit" value="Add Task" class="btn" id="b1">
+                <input type="submit" value="Add Task" class="btn" id = "b1">
               </form>
             </div>
           </div>
+          <!-- </>  by RITESH -->
           <div class="card-action">
             <h5 id="task-title">Tasks</h5>
             <div class="input-field col s12">
-              
               <input type="text" name="filter" id="filter">
               <label for="filter">Filter Tasks</label>
             </div>
-            <ul class="collection">
-
-              <!-- default li -->
-
-              <!-- <li class="collection-item">
-                <input type= "checkbox">
-                <label >node</label>
-
-                <a class= 'delete-item secondary-content'><i class="fa fa-remove"></i></a> -->
-              </li>
-            </ul>
-            <a href="#" class="clear-tasks btn " id="b3">Clear Tasks</a>
+            <ul class="collection"></ul>
+            <a href="#" class="clear-tasks btn" id="b3">Clear Tasks</a>
           </div>
         </div>
-       </div>
-       
-      
+      </div>
     </div>
   </div>
-
-
-  
-   
-
 
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"
@@ -82,3 +57,5 @@
   <script src="app.js"></script>
 </body>
 </html>
+
+<!-- </>  by RITESH -->
